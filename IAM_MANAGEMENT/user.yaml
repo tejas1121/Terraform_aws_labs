@@ -1,0 +1,9 @@
+users:
+  - username: adi
+    roles:
+      - ReadOnlyAccess
+
+  - username: saif
+    roles:
+      - AmazonS3FullAccess
+      - AmazonEC2ReadOnlyAccess
