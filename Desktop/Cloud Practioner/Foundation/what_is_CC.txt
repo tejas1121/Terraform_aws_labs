@@ -1,0 +1,155 @@
+. What is Cloud Computing?
+Cloud computing is the on-demand delivery of computing resources over the internet with pay-as-you-go pricing.
+Computing resources include servers, storage, databases, networking, and software.
+Example: Instead of purchasing a physical server to host your project, you launch an Amazon EC2 instance and pay for the resources you use.
+Traditional IT vs Cloud Computing
+
+
+
+
+
+
+
+
+
+Traditional IT
+- Buy hardware first
+- Set up a server room
+- Maintain physical infrastructure
+- Plan capacity in advance
+
+
+
+
+
+
+
+
+
+
+
+Cloud Computing
+- Provision resources on demand
+- Access resources over a network
+- AWS manages the underlying infrastructure
+- Scale resources as needed
+
+
+
+Remember: AWS manages the underlying physical infrastructure, but customers still have responsibilities for their applications, data, access controls, and configurations.
+2. Cloud Computing Deployment Models
+There are three main deployment models you should recognize.
+
+
+
+
+
+
+
+
+
+1. Private Cloud
+Cloud infrastructure dedicated to one organization.
+Example: A company operates its own private cloud for sensitive workloads.
+Exam clue: Exclusive use by one organization.
+
+
+
+
+
+
+
+
+
+
+
+
+2. Public Cloud
+Cloud resources are offered by a provider such as AWS to customers over a network.
+Example: Hosting a website on Amazon EC2.
+Exam clue: Provider-operated infrastructure and on-demand resources.
+
+
+
+
+
+
+
+
+
+
+
+
+3. Hybrid Cloud
+Combines private infrastructure with public cloud resources.
+Example: A bank keeps certain sensitive systems on premises while running its web application on AWS.
+Exam clue: Combination of on-premises/private infrastructure and public cloud.
+
+
+
+Exam trap: A hybrid cloud is not simply using two public cloud providers. That is generally called a multi-cloud approach.
+3. Five Characteristics of Cloud Computing
+For your course notes, memorize these five characteristics.
+
+1. On-demand self-service
+Users can provision resources themselves without requiring human interaction with the provider.
+Example: Launching an EC2 instance from the AWS Console.
+
+
+
+
+2. Broad network access
+Services are accessible over a network using standard mechanisms and different client devices.
+Example: Accessing AWS services from a laptop or mobile device.
+
+
+
+
+3. Resource pooling
+The provider pools computing resources to serve multiple customers using a multi-tenant model, with resources assigned and reassigned dynamically.
+Example: AWS serves many customers using its large infrastructure fleet.
+
+
+
+
+4. Rapid elasticity
+Resources can scale out and scale in quickly to match demand.
+Example: Adding compute capacity during a sale and reducing it afterward.
+
+
+
+
+5. Measured service
+Resource usage is monitored, measured, and reported, enabling usage-based billing.
+Example: Paying for EC2 compute time or S3 storage consumed.
+
+
+
+Memory trick: O-B-R-R-M
+- O — On-demand self-service
+- B — Broad network access
+- R — Resource pooling
+- R — Rapid elasticity
+- M — Measured service
+4. Six Advantages of Cloud Computing
+These are common advantages to recognize in exam scenarios.
+Advantage	Meaning
+Trade CapEx for OpEx	Reduce upfront hardware purchases and pay for resources as consumed.
+Benefit from economies of scale	Provider scale can reduce variable costs per unit.
+Stop guessing capacity	Provision capacity based on demand instead of overbuying.
+Increase speed and agility	Launch infrastructure and experiments quickly.
+Stop spending money running and maintaining data centers	AWS manages the physical cloud infrastructure.
+Go global in minutes	Deploy in AWS Regions around the world.
+Important distinction: CapEx vs OpEx
+- CapEx (Capital Expenditure): Buying physical servers and networking equipment upfront.
+- OpEx (Operational Expenditure): Paying ongoing costs for resources and services consumed.
+AWS can shift spending toward variable expenses, but it does not eliminate all costs or guarantee that every workload will be cheaper.
+5. Problems Solved by Cloud Computing
+Think about the challenges businesses face before adopting cloud computing.
+- High upfront cost: Businesses no longer need to purchase all their hardware before launching.
+- Capacity planning: They can provision resources as demand changes.
+- Slow infrastructure setup: Servers and services can be created in minutes.
+- Limited geographic reach: AWS Regions enable deployments closer to customers.
+- Infrastructure maintenance: AWS manages the physical data centers and underlying hardware.
+- Disaster and failure risks: Cloud architectures can use redundancy and backups to improve resilience.
+One important caveat: Cloud computing provides tools to solve these problems, but good architecture is sti
